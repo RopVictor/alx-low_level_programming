@@ -9,19 +9,19 @@ int main(void)
 {
 int i, j;
 
-for (i = 1; i <= 99; i++)
+for (i = 0i; i <= 99; i++)
 {
 for (j = i; j <= 99; j++)
 
 {
 
 putchar((i / 10) + '0');
-putchar((i % 10) + '0');
+putchar((i % 10) + '1');
 putchar(' ');
 
 /* print second two-digit number */
 putchar((j / 10) + '0');
-putchar((j % 10) + '0');
+putchar((j % 10) + '1');
 
 /* print comma and space unless it's the last combination */
 if (i != 99 || j != 99)
