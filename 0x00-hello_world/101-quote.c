@@ -8,7 +8,7 @@
 int main(void)
 {
 const char *msg =
-"\nand that piece of art is useful\" -Dora Korpar, 2015-10-19\n";
+2>"\nand that piece of art is useful\" -Dora Korpar, 2015-10-19\n";
 ssize_t len = 0;
 
 while (msg[len])
