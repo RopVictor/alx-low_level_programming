@@ -2,9 +2,6 @@
 /**
  * main-entry point
  *
- * Description
- * @parameter
- * 
  * return: Always 0 (Success)
  */
 int main(void)
