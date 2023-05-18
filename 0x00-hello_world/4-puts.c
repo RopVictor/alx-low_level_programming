@@ -3,8 +3,8 @@
  * main-entry point
  * return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle\n");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle\n");
+	return (0);
 }
