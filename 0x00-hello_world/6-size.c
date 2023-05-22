@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints the size of various type
- * based on ide used
+ * main - Entry point
  *
- * return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
