@@ -3,7 +3,9 @@
  * @a: Pointer to the first integer.
  * @b: Pointer to the second integer.
  */
-void reset_to_98(int *n)
+void swap_int(int *a, int *b)
 {
-	*n=98;
+	int temp = *a;
+	*a=*b;
+	*b=temp;
 }
