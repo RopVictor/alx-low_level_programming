@@ -22,7 +22,8 @@ char *cap_string(char *str)
 			capitalize_next = 1;
 		}
 		/* Check if the character is a letter */
-		else if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z'))
+		else if ((str[i] >= 'a' && str[i] <= 'z') ||
+			(str[i] >= 'A' && str[i] <= 'Z'))
 		{
 			/* Capitalize the letter if necessary */
 			if (capitalize_next)

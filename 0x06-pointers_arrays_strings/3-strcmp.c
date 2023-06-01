@@ -20,6 +20,6 @@ int _strcmp(const char *s1, const char *s2)
 		i++;
 	}
 
-	/* Return the difference between the ASCII values of the non-matching characters */
-	return s1[i] - s2[i];
+	/* Return the difference between the ASCII values  */
+	return (s1[i] - s2[i]);
 }
