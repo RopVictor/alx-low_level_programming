@@ -7,4 +7,7 @@ char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 char *cap_string(char *);
 char *string_toupper(char *);
+char *rot13(char *);
+void print_number(int n);
+void print_buffer(char *b, int size);
 #endif /* MAIN_H */
