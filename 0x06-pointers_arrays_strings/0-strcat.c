@@ -15,13 +15,15 @@ char *_strcat(char *dest, char *src)
 		dest_len++;
 
 	/* Concatenate the source string to the destination string */
-	while (src[i] != '\0') {
+while (src[i] != '\0') 
+	{
 		dest[dest_len] = src[i];
 		dest_len++;
 		i++;
 	}
 
-	dest[dest_len] = '\0'; /* Add a terminating null byte */
+dest[dest_len] = '\0'; /* Add a terminating null byte */
 
-	return dest;
+return (dest);
+
 }
