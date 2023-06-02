@@ -10,4 +10,12 @@ char *string_toupper(char *);
 char *rot13(char *);
 void print_number(int n);
 void print_buffer(char *b, int size);
+/* Function prototypes */
+void function1();
+int function2(int arg1, double arg2);
+char function3(char* str);
+void function4(int arr[], int size);
+
+/* putchar function */
+int _putchar(char c);
 #endif /* MAIN_H */
